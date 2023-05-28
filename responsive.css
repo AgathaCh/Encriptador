@@ -1,0 +1,61 @@
+@media (max-width: 984px) {
+
+    .flex-encriptador {
+      flex-direction: column;
+      align-items: center;
+    }
+    .encriptador {
+        margin-top:0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .encriptador-resultado {
+        width: 60vw;
+        height: 12vh;
+    }
+
+    .encriptador-copy {
+        width: 60vw;
+        height: 20vh;
+    }
+
+    .button-copy {
+        margin-bottom: 20px;
+    }
+    .encriptador-resultado img {
+        display: none;
+    }
+
+    .encriptador-input {
+        height: 45vh;
+        width: 70vw;
+    }
+
+    .encriptador-logo {
+        margin-top: 20px;
+        width: 100%;
+    }
+}
+
+
+@media (max-width:587px) {
+    
+    .encriptador-botones {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .encriptador-resultado, .encriptador-copy {
+        width: 90vw;
+        height: 24vh;
+    }
+}
+
+@media (max-width:280px) {
+   .button1, .button2 {
+        width: 90%;
+    }
+}

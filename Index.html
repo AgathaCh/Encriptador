@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <title>Alura Encriptador</title>
+</head>
+<body>
+    <div class="flex-encriptador">
+
+        <div class="encriptador-logo"><img class="logoimg" src="img/Logo.png" alt="logo alura" style="padding: 20px;"></div>
+        <div class="encriptador">
+
+            <textarea id="encriptador-textarea" class="encriptador-output" placeholder="Ingrese el texto aquí"></textarea>
+
+        <div class="encriptador-botones">
+            <div class="encriptador-b-mensaje"><img src="img/arrow_circle_down_FILL0_wght400_GRAD0_opsz48.svg" alt="flecha abajo" width="16" height="16">
+                <p>Solo letras minúsculas y sin acentos.</p></div>
+            <button class="button1" id="button-encriptar">Encriptar</button>
+            <button class="button2" id="button-desencriptar">Desencriptar</button>
+            </div>
+        </div>
+    
+
+
+        <div class="encriptador-resultado" id="mensaje-no-encontrado">
+            <img src="img/Muñeco.png" alt="muneco">
+            <h2>Ningún mensaje fue encontrado</h2>
+            <p>Ingrese el texto que deseas encriptar o desencriptar</p>
+        </div>
+
+        <div class="encriptador-copy" id="copy-encriptado">
+            <textarea class="encriptador-output-copy" id="encriptador-output" readonly></textarea>
+
+            <button class="button-copy" id="copy-button">Copiar</button>
+
+        </div>
+</div>
+
+<footer class="footer">
+    Encriptador/Desencriptador Challenge | Código creado por Raquel Bonilla
+</footer>
+<!-- Código creado por Raquel Bonilla | Code made by Raquel Bonilla  \ -->
+<script src="js/script.js"></script>
+</body>
+</html>
